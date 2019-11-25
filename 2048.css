@@ -1,0 +1,42 @@
+.maxScore {
+  position: relative;
+  top: 0px;
+  left: 20px;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  border-radius: 2px;
+  white-space: pre;
+}
+
+.board {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.cell {
+  position: absolute;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.innerCell {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.gameOver {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  color: black;
+  text-align: center;
+}
