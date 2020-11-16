@@ -1,0 +1,97 @@
+.maxScore {
+  position: relative;
+  top: 0px;
+  left: 20px;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  border-radius: 2px;
+  white-space: pre;
+}
+
+.description {
+  position: absolute;
+  right: -200px;
+  top: 50%;
+  border-radius: 4px;
+  width: 180px;
+  height: 100px;
+  overflow: hidden;
+  margin-top: -70px;
+}
+
+.uploadModel {
+  position: absolute;
+  right: -200px;
+  top: 50%;
+  border-radius: 4px;
+  width: 180px;
+  height: 50px;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: rgb(182, 250, 135);
+  margin-top: 10px;
+}
+
+.innerUpload {
+  position: relative;
+  left: 0px;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: -8px;
+}
+
+.uploadModelTransparent {
+  position: absolute;
+  right: -200px;
+  top: 50%;
+  border-radius: 4px;
+  border: 1px solid black;
+  width: 180px;
+  height: 50px;
+  opacity: 0;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.board {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-radius: 3px;
+}
+
+.cell {
+  position: absolute;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.innerCell {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.gameOver {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  border-radius: 4px;
+  background-color: rgba(159, 159, 159, 0.79);
+}
+
+.gameOverInner {
+  position: relative;
+  top: 50%;
+  font-size: 50px;
+  margin-top: -30px;
+  text-align: center;
+}
